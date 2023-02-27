@@ -52,10 +52,6 @@ h6 {
   margin: auto;
   padding: 0 2rem;
   overflow: hidden;
-  display: grid;
-  grid-template-columns: 6fr 3fr 2fr;
-  padding: 1rem;
-  align-items: center;
 }
 
 .category {
@@ -104,6 +100,11 @@ h6 {
   width: 100%;
   text-align: center;
 }
+
+.card {
+  background: white;
+  padding: 1rem;
+}
 /* Nav-bar */
 
 #main-nav {
@@ -111,6 +112,12 @@ h6 {
   position: sticky;
   top: 0;
   z-index: 2;
+}
+#main-nav .container {
+  display: grid;
+  grid-template-columns: 6fr 3fr 2fr;
+  padding: 1rem;
+  align-items: center;
 }
 
 #main-nav .logo {
@@ -179,4 +186,28 @@ h6 {
 
 .showcase-container .showcase-content p {
   margin-bottom: 1rem;
+}
+
+/* Home Articles styling */
+
+#articles .articles-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+
+.card img {
+  width: 200px;
+  height: 200px;
+}
+
+#articles .articles-container > *:first-child {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#articles .articles-container > *:last-child {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
 }
