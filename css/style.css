@@ -1,0 +1,35 @@
+:root {
+  --primary-color: #c72727;
+  --secondary-color: rgba(4, 4, 159, 0.866);
+  --light-color: whitesmoke;
+  --dark-color: #333;
+  --max-width: 1200px;
+  --primary-font: "Lato", sans-serif;
+  --secondary-font: "Roboto", sans-serif;
+}
+
+.category {
+  --sports-color: rgba(4, 4, 159, 0.866);
+  --ent-color: #f99500;
+  --tech-color: #009cff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--primary-font);
+  line-height: 1.6;
+  background: var(--light-color);
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
