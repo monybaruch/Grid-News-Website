@@ -152,6 +152,7 @@ p {
 .list li a:hover {
   color: var(--primary-color) !important;
 }
+
 /* Nav-bar */
 
 #main-nav {
@@ -322,4 +323,21 @@ p {
 }
 #main-footer .footer-container > div > p {
   font-size: 1.7rem;
+}
+
+/* About page styling */
+
+/* Grid styling */
+.grid-container {
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  margin: 2rem 0;
+  grid-gap: 1.5rem;
+}
+.grid-container > *:first-child {
+  grid-row: 1 / span 3;
+}
+
+.grid-container > aside {
+  grid-row: 1 / span 3;
 }
