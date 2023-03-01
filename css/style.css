@@ -338,6 +338,28 @@ p {
   grid-row: 1 / span 3;
 }
 
-.grid-container > aside {
+/* .grid-container > aside {
   grid-row: 1 / span 3;
+} */
+
+.lending-h {
+  font-size: 3rem;
+}
+
+/* Articles page styling */
+
+#article .meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eee;
+  padding: 0.5rem;
+}
+
+#article .meta .category {
+  margin-top: 0.5rem;
+}
+
+.list > li {
+  margin-bottom: 1rem;
 }
