@@ -1,6 +1,9 @@
 #main-nav .social {
   display: none;
 }
+#main-nav .logo {
+  display: none;
+}
 
 #main-nav .container {
   grid-template-columns: 1fr;
@@ -90,9 +93,6 @@
   #articles .articles-container {
     grid-template-columns: 1fr;
     grid-column: 1;
-  }
-  #main-nav .logo {
-    display: none;
   }
 
   #main-nav ul {
